@@ -6,11 +6,13 @@
 /*   By: proiz <proiz@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/29 22:46:16 by proiz             #+#    #+#             */
-/*   Updated: 2021/07/30 00:22:20 by proiz            ###   ########.fr       */
+/*   Updated: 2021/11/29 21:37:54 by proiz            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isascii(int c) /*isascii function checks the passed value is ASCII character or not*/
+/*isascii function checks the passed value is ASCII character or not*/
+
+int	ft_isascii(int c)
 {
-	return(c <= 127 && c >= 0);
+	return (c <= 127 && c >= 0);
 }

@@ -6,7 +6,7 @@
 /*   By: proiz <proiz@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/06 19:55:15 by proiz             #+#    #+#             */
-/*   Updated: 2021/08/06 23:38:36 by proiz            ###   ########.fr       */
+/*   Updated: 2021/11/29 21:35:44 by proiz            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_memset(void *s, int c, size_t n)
 {
 	while (n--)
 		*(unsigned char *)s++ = (unsigned char )c;
-	return(*s);
+	return (*s);
 }
 
 /*
